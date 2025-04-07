@@ -1,0 +1,13 @@
+
+Genome/j*: Running BUSCO for each reference genome assembly
+BUSCO.genome.vis.R: Visualization of BUSCO analysis above
+
+PTN.sh: Running BUSCO for non-reference genome and reference genome
+PTN.overlappingBUSCO.R: Calculating overlapping BUSCO genes between non-reference genome and reference genome
+PTN.BUSCO.report.pl: Listing such overlapping BUSCO genes
+
+blastP.sh: Running blastP for non-reference genome proteins against reference proteins
+blastP.analysis.R: Counting and visualization from above
+
+
+

@@ -1,0 +1,8 @@
+#!/bin/bash
+#SBATCH -c 10
+#SBATCH --mem=100G
+
+cd /home/namk/work_faw_adaptation/Kiwoong/Projects/sfrugi_PseudoPangenomics/kmer/jellyfish
+
+zcat /home/namk/work_faw_adaptation/processing_fq/CNP0001020_GUI_n163/FP100000482BL_L01_596* | grep -v + | grep -v @ | wc -l > FP100000482BL_L01_596.wc
+zcat /home/namk/work_faw_adaptation/processing_fq/CNP0001020_GUI_n163/FP100000482BL_L01_596* | /home/namk/work_faw_adaptation/programs/jellyfish-2.3.1/bin/jellyfish count /dev/fd/0 -C -m 17 -s 500000000 -t 10  -o /dev/stdout | /home/namk/work_faw_adaptation/programs/jellyfish-2.3.1/bin/jellyfish histo /dev/fd/0 -t 10 > FP100000482BL_L01_596.histo

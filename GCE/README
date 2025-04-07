@@ -1,0 +1,5 @@
+libprep.pl: Generating libraries for kmerfreq
+kmerfreq/j*: running kmerfreq
+GCE.exec.sh: running GCE
+GCE.collect.pl: collecting the result from GCE
+vis_stats.R: Simple statistical analysis and visualization

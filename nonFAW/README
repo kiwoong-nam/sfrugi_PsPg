@@ -1,0 +1,6 @@
+adapterguess.sh: Guessing adapter sequences from the reads
+fqfilter.sh: filtering fastq files
+jellyfish.sh: running jellyfish
+genomescope.exec.pl: running Genomescope
+genoscope.genomesize.pl: Collect the genome size estimation
+vis.R: visualization

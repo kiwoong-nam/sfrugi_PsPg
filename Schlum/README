@@ -1,0 +1,6 @@
+coverage.pl: Calculating the throughput of sequencing reads
+jellyfish.sh: running jellyfish
+genomescope.exec.pl: running Genomescope
+genoscope.genomesize.pl: Collect the genome size estimation
+genoscope.model_fit.pl: Collect the model fit calculation
+vis_stats.R: Simple statistical analysis and visualization

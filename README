@@ -1,0 +1,12 @@
+These scripts were used for a paper entitled 'Is extreme within-population genome size variation real in Spodoptera frugiperda?'.
+
+
+BUSCO: BUSCO analysis of reference genome analysis and blastP analysis of non-reference genome
+
+GCE: Genome size estimation from the dataset of Gui et al (2022) using GCE
+kmer: Genome size estimation from the dataset of Gui et al (2022) using Genomescope
+Zhang: Genome size estimation from the dataset of Zhang et al (2020) using Genomescope
+Schlum: Genome size estimation from the dataset of Schlum et al (2021) using Genomescope
+Yainna: Genome size estimation from the dataset of Zhang et al (2022) using Genomescope
+nonFAW: Genome size estimation from non-S. frugiperda genomes using Genomescope      
+

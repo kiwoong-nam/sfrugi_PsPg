@@ -1,0 +1,6 @@
+#!/bin/bash
+#SBATCH -c 10
+#SBATCH --mem=100G
+
+/home/namk/work_faw_adaptation/programs/kmerfreq-master/kmerfreq -k 17 -t 10 -p /home/namk/work_faw_adaptation/Kiwoong/Projects/sfrugi_PseudoPangenomics/CGE/kmerfreq/FP100000484BL_L01_511 /home/namk/work_faw_adaptation/Kiwoong/Projects/sfrugi_PseudoPangenomics/CGE/lib/FP100000484BL_L01_511.lib
+
