@@ -1,0 +1,3 @@
+ext_seq.pl: Prepares lepidoptera_odb10 sequence which is common between ref and non-ref sequences
+blastP.sh: Performs blastP of the common sequences agaist metazoa_odb10
+common_seq.pl: Extracts protein sequences of metazoa_odb10 genes that were blastP-hitted 

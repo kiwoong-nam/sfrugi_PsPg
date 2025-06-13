@@ -9,4 +9,6 @@ Zhang: Genome size estimation from the dataset of Zhang et al (2020) using Genom
 Schlum: Genome size estimation from the dataset of Schlum et al (2021) using Genomescope
 Yainna: Genome size estimation from the dataset of Zhang et al (2022) using Genomescope
 nonFAW: Genome size estimation from non-S. frugiperda genomes using Genomescope      
-
+ref_dupl: Finds the chromosomal positions of the BUSCO genes commonly existing between ref and non-ref sequences
+BUSCO_conta: Finds the metazoa_odb10 busco genes corresonding to the lepidoptera_odb10 genes commonly existing between ref and non-ref sequences
+VIS: some scripts used for visiualization

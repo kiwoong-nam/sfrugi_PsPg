@@ -3,3 +3,4 @@ jellyfish/j*: running jellyfish
 genomescope.exec.pl: running Genomescope
 genoscope.genomesize.pl: Collect the genome size estimation
 vis_stats.R: Simple statistical analysis and visualization
+genoscope.repeat.pl: Collect the information of repeat and unique sequences
